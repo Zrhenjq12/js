@@ -1,0 +1,60 @@
+.flex-container {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.radio-item:last-child {
+    margin-top: 1.4rem;
+}
+
+.radio {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    padding: 1.3rem;
+    border: 1px solid #7fff00;
+}
+
+.flex-element {
+    border: 2px solid #fff;
+    width: 49%;
+}
+
+.one {
+    background-color: #7fffd4;
+}
+
+.two {
+    background-color: #0000ff;
+}
+
+.three {
+    background-color: #7fff00;
+}
+
+.for {
+    background-color: #9932cc;
+}
+
+button {
+    display: block;
+    margin: 1rem auto 0;
+}
+
+p {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}

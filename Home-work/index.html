@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./app.css">
+</head>
+
+<body>
+
+    <div class="content">
+        <div class="flex-container">
+            <div class="flex-element one" data-coun='0'></div>
+            <div class="flex-element two" data-coun='1'></div>
+            <div class="flex-element three" data-coun='2'></div>
+            <div class="flex-element for" data-coun='3'></div>
+        </div>
+        <div class="radio">
+            <div class="radio-item">
+                <input type="radio" id="contactChoice2" name="contact" value="1000">
+                <label for="contactChoice2">Лёгкий режим</label>
+            </div>
+            <div class="radio-item">
+                <input type="radio" id="contactChoice3" name="contact" value="500" checked="checked">
+                <label for="contactChoice3">Сложный режим</label>
+            </div>
+            <div class="radio-item">
+                <input type="radio" id="contactChoice4" name="contact" value="250">
+                <label for="contactChoice4">Невероятно сложный</label>
+            </div>
+            <button onclick="startGame()" type="button">Начало игры</button>
+            <p>К-во ваших очков <span id="counter"></span></p>
+        </div>
+    </div>
+
+
+    <h2 class="game-class"></h2>
+
+
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
